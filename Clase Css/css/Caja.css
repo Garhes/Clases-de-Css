@@ -1,0 +1,71 @@
+body {
+    background-color: #ff5a5a;
+}
+
+/* Estilos generales para todos los divs */
+div {
+    position: absolute; /* Posicionamiento absoluto para ubicar cada bloque en la pantalla */
+    border: 1px solid #41729c; /* Borde de color azul para visualizar los bloques */
+}
+
+/* Bloque 1 - Un rectángulo de color azul claro */
+div.bloque1 {
+    background-color: #ebf0f9; /* Color de fondo azul claro */
+    width: 353px; /* Ancho del bloque */
+    height: 113px; /* Alto del bloque */
+    top: 100px; /* Posición desde la parte superior */
+    left: 56px; /* Posición desde la izquierda */
+    z-index: 800; /* Se ubica por encima de otros elementos debido a su alto z-index */
+}
+
+/* Bloque 2 - Un rectángulo de color verde claro */
+div.bloque2 {
+    background-color: #c5e0b4; /* Color de fondo verde claro */
+    width: 297px;
+    height: 387px;
+    top: 100px;
+    left: 81px;
+    z-index: 40; /* Se superpone a los bloques con menor z-index */
+}
+
+/* Bloque 3 - Un rectángulo de color amarillo */
+div.bloque3 {
+    background-color: #ffe699; /* Color de fondo amarillo */
+    width: 397px;
+    height: 116px;
+    top: 374px;
+    left: 20px;
+    z-index: 20; /* Está por debajo del bloque1 y bloque2 */
+}
+
+/* Hijos dentro de bloque2 */
+
+/* Hijo 1 - Bloque azul dentro de bloque2 */
+div.bloque2 div.hijo1 {
+    background-color: #5b9ad5; /* Color de fondo azul */
+    width: 266px;
+    height: 98px;
+    top: 120px;
+    left: 15px;
+    z-index: 90; /* Se superpone a otros elementos dentro de bloque2 */
+}
+
+/* Hijo 2 - Bloque gris dentro de bloque2 */
+div.bloque2 div.hijo2 {
+    background-color: #d0cece; /* Color de fondo gris */
+    width: 143px;
+    height: 296px;
+    top: 33px;
+    left: 126px;
+    z-index: 100; /* Es el elemento superior dentro de bloque2 */
+}
+
+/* Hijo 3 - Bloque rojo claro dentro de bloque2 */
+div.bloque2 div.hijo3 {
+    background-color: #ffb9b9; /* Color de fondo rojo claro */
+    width: 176px;
+    height: 99px;
+    top: 278px;
+    left: 105px;
+    z-index: 10; /* Es el elemento más bajo dentro de bloque2 */
+}

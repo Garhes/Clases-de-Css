@@ -1,0 +1,52 @@
+.menu {
+    width: 100%;
+    background-color: #ff0000; /* Color de fondo del menú */
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.menu ul li {
+    flex: 1; /* Hace que cada elemento del menú principal ocupe el mismo ancho */
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 0; /* Ajusta el padding para que el menú ocupe toda la altura */
+    text-align: center; /* Centra el texto */
+    background-color: #ff0000;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ffe600;
+}
+
+.menu ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #ff0000;
+    width: 100%; /* Hace que el submenú ocupe el mismo ancho que el elemento del menú principal */
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul li ul li a {
+    padding: 10px 0; /* Ajusta el padding para que el submenú ocupe toda la altura */
+    text-align: center; /* Centra el texto */
+}

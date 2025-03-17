@@ -1,0 +1,32 @@
+#Mi_parrafo {
+    background-color: aqua; /* Color de fondo */
+    color: black; /* Color de letra */
+    font-size: 20px; /* Tamaño de letra */
+    font-family: Arial; /* Tipo de letra */
+    text-align: center; /* Alineación del texto */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+    border: 2px solid black; /* Borde */
+    /*
+        border-radius: = 10px;  Bordes redondeados
+        box-shadow: = 5px 5px 5px black;  Sombra 
+        width: 50%; = Ancho 
+        height: 100px; = Alto 
+        line-height: = 100px;  Altura de línea 
+        text-transform: = uppercase;  Mayúsculas 
+        text-decoration: = underline;  Subrayado 
+        font-weight: bold; = Negrita 
+        font-style: italic; = Cursiva 
+        text-shadow: 2px 2px 2px white; = Sombra de texto 
+        white-space: nowrap; = No se rompe la línea 
+        overflow: hidden; = No se muestra lo que se sale 
+        text-overflow: ellipsis; = Se muestra puntos suspensivos 
+        word-wrap: break-word; = Se rompe la palabra 
+        word-break: break-all; = Se rompe la palabra 
+        display: inline-block; = Elemento en línea 
+        vertical-align: middle; = Alineación vertical 
+        position: relative; = Posición relativa 
+        top: 50%; = Posición arriba 
+        left: 50%; = Posición izquierda 
+    */
+}
